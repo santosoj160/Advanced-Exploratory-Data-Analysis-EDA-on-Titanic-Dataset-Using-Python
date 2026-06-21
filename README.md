@@ -205,11 +205,12 @@ Titanic-Advanced-EDA/
 │
 ├── notebooks/
 │   └── Advanced_EDA_Titanic.ipynb
-│
 ├── images/
-│   ├── survival_by_gender.png
-│   ├── survival_by_class.png
-│   └── age_distribution.png
+│   ├── survival_rate_by_pclass.png
+│   ├── survival_rate_by_gender.png
+│   ├── average_age_by_gender_survival.png
+│   ├── passenger_count_by_gender_survival.png
+│   └── average_age_by_gender_barplot.png
 │
 └── README.md
 ```
