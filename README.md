@@ -159,6 +159,10 @@ Statistics used:
 * Max
 * Min
 
+
+![Passenger Count by Gender and Survival](Visualizations%20Titanic%20Analysis/passenger_count_by_gender_survival.png)
+
+![Average Age by Gender](Visualizations%20Titanic%20Analysis/average_age_by_gender_barplot.png)
 ---
 ## Visualizations
 
@@ -166,7 +170,7 @@ Statistics used:
 
 Heatmap showing the percentage of passengers who survived based on passenger class.
 
-![Survival Rate by Passenger Class](images/survival_rate_by_pclass.png)
+![Survival Rate by Passenger Class](Visualizations%20Titanic%20Analysis/survival_rate_by_pclass.png)
 
 ---
 
@@ -174,15 +178,14 @@ Heatmap showing the percentage of passengers who survived based on passenger cla
 
 Heatmap illustrating the survival percentage between male and female passengers.
 
-![Survival Rate by Gender](images/survival_rate_by_gender.png)
-
+![Survival Rate by Gender](Visualizations%20Titanic%20Analysis/survival_rate_by_gender.png)
 ---
 
 ### 3. Average Age by Gender and Survival Status
 
 Heatmap showing the average age of passengers grouped by gender and survival outcome.
 
-![Average Age by Gender and Survival](images/average_age_by_gender_survival.png)
+![Average Age by Gender and Survival](Visualizations%20Titanic%20Analysis/average_age_by_gender_survival.png)
 
 ---
 
@@ -190,7 +193,7 @@ Heatmap showing the average age of passengers grouped by gender and survival out
 
 Heatmap displaying the absolute number of passengers by gender and survival status.
 
-![Passenger Count by Gender and Survival](images/passenger_count_by_gender_survival.png)
+![Passenger Count by Gender and Survival](Visualizations%20Titanic%20Analysis/passenger_count_by_gender_survival.png)
 
 ---
 
@@ -198,7 +201,7 @@ Heatmap displaying the absolute number of passengers by gender and survival stat
 
 Bar chart comparing the average age of male and female passengers.
 
-![Average Age by Gender](images/average_age_by_gender_barplot.png)
+![Passenger Count by Gender and Survival](Visualizations%20Titanic%20Analysis/passenger_count_by_gender_survival.png)
 ---
 
 ## Key Findings
