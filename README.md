@@ -159,10 +159,6 @@ Statistics used:
 * Max
 * Min
 
-
-![Passenger Count by Gender and Survival](Visualizations%20Titanic%20Analysis/passenger_count_by_gender_survival.png)
-
-![Average Age by Gender](Visualizations%20Titanic%20Analysis/average_age_by_gender_barplot.png)
 ---
 ## Visualizations
 
@@ -201,7 +197,7 @@ Heatmap displaying the absolute number of passengers by gender and survival stat
 
 Bar chart comparing the average age of male and female passengers.
 
-![Passenger Count by Gender and Survival](Visualizations%20Titanic%20Analysis/passenger_count_by_gender_survival.png)
+![Average Age by Gender](Visualizations%20Titanic%20Analysis/average_age_by_gender_barplot.png)
 ---
 
 ## Key Findings
