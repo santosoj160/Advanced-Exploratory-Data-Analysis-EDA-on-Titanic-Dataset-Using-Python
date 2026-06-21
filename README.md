@@ -160,24 +160,77 @@ Statistics used:
 * Min
 
 ---
+## Visualizations
+
+### 1. Survival Rate by Passenger Class
+
+Heatmap showing the percentage of passengers who survived based on passenger class.
+
+![Survival Rate by Passenger Class](images/survival_rate_by_pclass.png)
+
+---
+
+### 2. Survival Rate by Gender
+
+Heatmap illustrating the survival percentage between male and female passengers.
+
+![Survival Rate by Gender](images/survival_rate_by_gender.png)
+
+---
+
+### 3. Average Age by Gender and Survival Status
+
+Heatmap showing the average age of passengers grouped by gender and survival outcome.
+
+![Average Age by Gender and Survival](images/average_age_by_gender_survival.png)
+
+---
+
+### 4. Passenger Count by Gender and Survival Status
+
+Heatmap displaying the absolute number of passengers by gender and survival status.
+
+![Passenger Count by Gender and Survival](images/passenger_count_by_gender_survival.png)
+
+---
+
+### 5. Average Age by Gender
+
+Bar chart comparing the average age of male and female passengers.
+
+![Average Age by Gender](images/average_age_by_gender_barplot.png)
+---
 
 ## Key Findings
 
-### Survival by Gender
+### 1. Gender Was the Strongest Survival Indicator
 
-Female passengers had a significantly higher survival rate compared to male passengers.
+The survival rate among female passengers was significantly higher than that of male passengers across all passenger classes. This pattern suggests that gender played a critical role in determining survival outcomes during the disaster.
 
-### Survival by Passenger Class
+### 2. Socioeconomic Status Influenced Survival Probability
 
-Passengers in higher classes showed better survival rates than those in lower classes.
+Passenger class showed a strong relationship with survival. First-class passengers achieved the highest survival rates, while third-class passengers experienced the lowest. This indicates that socioeconomic status may have affected access to lifeboats and emergency resources.
 
-### Age Distribution
+### 3. Combined Effect of Gender and Passenger Class
 
-Most passengers were adults between 20 and 40 years old.
+The analysis revealed that female passengers in higher classes had the greatest likelihood of survival, whereas male passengers in lower classes faced the highest mortality rates. This demonstrates that survival was influenced by the interaction of multiple demographic factors rather than a single variable.
 
-### Fare Analysis
+### 4. Passenger Distribution Was Highly Imbalanced
 
-Higher ticket fares were generally associated with higher passenger classes.
+The dataset contained a considerably larger number of male non-survivors compared to other groups. This imbalance highlights the importance of examining both absolute counts and percentage-based metrics when interpreting survival patterns.
+
+### 5. Age Showed a Moderate Relationship with Survival
+
+Average age differences between survivors and non-survivors suggest that age may have contributed to survival outcomes. However, its influence appears weaker than the effects of gender and passenger class.
+
+### 6. Survival Outcomes Were Not Random
+
+Cross-tabulation and aggregation analyses consistently demonstrated systematic patterns across demographic groups. The findings indicate that survival was associated with identifiable passenger characteristics rather than occurring by chance alone.
+
+### 7. Potential Features for Predictive Modeling
+
+Based on the exploratory analysis, variables such as Gender (Sex), Passenger Class (Pclass), Age, and Fare are likely to be valuable predictors for machine learning models designed to estimate survival probability.
+
 
 ---
 
